@@ -1,0 +1,100 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body { 
+	background: #1D498D;
+	font-family: cursive;
+}
+
+article {
+	font-family: fantasy;
+	font-size: 30px; 
+	text-align: center;
+	text-decoration: none;
+	font-weight: bolder;
+	color: black;
+}
+
+div{
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+header{ 
+	background: #FF7F50;
+	margin: 20px 0;
+}
+
+header h1{
+	font-family: monospace; 
+	font-size: 40px;
+	color: #B22222;
+	padding: 20px;
+	text-align: center;
+}
+
+#front{
+	width: 100%;
+	background: #90EE90;
+	color: #000000;
+	padding: 35px;
+	float: left;
+	box-sizing: border-box;
+}
+#back{
+	width: 100%;
+	background: #228B22;
+	color: #000000;
+	padding: 35px;
+	float: left;
+	box-sizing: border-box;
+}
+
+#front img{
+	width: 35%;
+	display: block;
+	margin: auto;
+}
+
+#back img{
+	width: 35%;
+	display: block;
+	margin: auto;
+}
+
+#api{
+	width: 100%;
+	background: #7FFFD4;
+	color: #000000;
+	padding: 35px;
+	float: left;
+	box-sizing: border-box;
+}
+
+#api img{
+	width: 50%;
+	height: auto;
+	margin-left: 250px;
+}
+#anthony{
+	font-family: fantasy;
+	font-size: 20px;
+	text-align: center;
+	margin: 50px;
+	color: #ffffff;
+	float: center;
+
+}
+
+@media screen and (max-width: 1024px){
+	.contenedor {
+		width: 100%;
+	}
+	aside{
+		display: none;
+	}
+}
